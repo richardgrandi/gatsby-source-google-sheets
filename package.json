@@ -6,7 +6,6 @@
     "scripts": {
         "prepare": "babel src --out-dir .",
         "watch": "babel -w src --out-dir .",
-        "prepublish": "npm run prettify && cross-env NODE_ENV=production npm run build",
         "prettify": "prettier ./src/** --write",
         "test": "jest src/__test__"
     },
